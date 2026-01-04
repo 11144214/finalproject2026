@@ -112,7 +112,8 @@ body {
 /* Home Page */
 
 #Hero {
-    background-image: url('../img/homepage.jpg');
+    background-image: url('/finalproject2026/img/
+homepage.jpg');
     height: 50vh;
     width: 100%;
     background-position: top 25% right 0;
@@ -224,7 +225,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner1.png);
+    background-image: url(/finalproject2026/img/
+banner1.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -237,7 +239,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner2.png);
+    background-image: url(/finalproject2026/img/
+banner2.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -250,7 +253,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner3.png);
+    background-image: url(/finalproject2026/img/
+banner3.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -290,11 +294,13 @@ body {
 }
 
 #sm-banner .banner-box {
-    background-image: url(../img/picarea/5p2.jpg);
+    background-image: url(/finalproject2026/img/
+picarea/5p2.jpg);
 }
 
 #sm-banner .banner-box2 {
-    background-image: url(../img/picarea/5p3.jpg);
+    background-image: url(/finalproject2026/img/
+picarea/5p3.jpg);
 }
 
 #sm-banner h4,
@@ -308,7 +314,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(../img/signup.png);
+    background-image: url(/finalproject2026/img/
+signup.png);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-size: cover;
@@ -465,7 +472,7 @@ footer .col {
 /* Product Page */
 
 
-/* ===================== 跑馬燈（文字） ===================== */
+/* ===================== 跑馬燈 ===================== */
 
 .text-marquee {
   width: 100%;
@@ -495,7 +502,7 @@ footer .col {
 }
 
 
-/* ===================== 商品橫向輪播（只影響輪播） ===================== */
+/* ===================== 商品橫向輪播 ===================== */
 
 /* ===== 商品輪播區 ===== */
 .discount-track {
@@ -510,7 +517,7 @@ footer .col {
   display: flex;
   gap: 70px;
   width: max-content;
-  animation: discountScroll 25s linear infinite; /* ⬅ 速度加快 */
+  animation: discountScroll 25s linear infinite; 
 }
 
 /* 單一商品 */
@@ -528,7 +535,7 @@ footer .col {
   border-radius: 8px;
 }
 
-/* ===== 無縫輪播動畫（關鍵）===== */
+/* ===== 無縫輪播動畫（===== */
 @keyframes discountScroll {
   from {
     transform: translateX(0);
@@ -561,12 +568,12 @@ footer .col {
 /* ===================== 商品列表===================== */
 
 .pro-container {
-  max-width: 1600px;        /* 不滿版 */
+  max-width: 1600px;       
   margin: 0 auto;
   padding: 40px 30px;
 
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 一排 4 張 */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 30px;
 }
 
@@ -610,7 +617,7 @@ footer .col {
   font-size: 12px;
 }
 
-/* ===== 加入購物車 icon ===== */
+/* ===== 加入購物車  ===== */
 .pro-container .pro a i {
   position: absolute;
   bottom: 20px;
@@ -647,12 +654,12 @@ footer .col {
 
 #prodetails{
   display:flex;
-  align-items:flex-start; /* 右側從上對齊，看起來更乾淨 */
-  gap: 40px;              /* 左右區塊間距 */
+  align-items:flex-start; 
+  gap: 40px;              
   margin-top:60px;
 }
 
-/* 右側：整體排版變乾淨（重點） */
+ 
 #prodetails .single-pro-details{
   width: 50%;
   padding-top: 10px;              
@@ -669,9 +676,9 @@ footer .col {
   margin: 0 0 6px;
 }
 
-/* 商品名稱（你原本用 h4 顯示品名） */
+
 #prodetails .single-pro-details h4{
-  padding: 0;                     /* ✅ 把你原本 40px padding 拿掉 */
+  padding: 0;                     /* 
   margin: 0;
   font-size: 30px;
   font-weight: 650;
@@ -687,7 +694,7 @@ footer .col {
   color: #1f2933;
 }
 
-/* Size 下拉：更像正式商品頁 */
+/* Size */
 #prodetails .single-pro-details select{
   width: 190px;
   display: inline-block;          
@@ -699,7 +706,7 @@ footer .col {
   margin: 0;
 }
 
-/* 數量 input：更好看、更一致 */
+/*  */
 #prodetails .single-pro-details input{
   width: 64px;
   height: 44px;
@@ -716,7 +723,6 @@ footer .col {
   border-color: #111827;
 }
 
-/* Add To Cart 按鈕：不改 HTML 也能套到（只要你原本是 button） */
 #prodetails .single-pro-details button{
   height: 44px;
   padding: 0 26px;
@@ -775,7 +781,8 @@ footer .col {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner4.png);
+    background-image: url(/finalproject2026/img/
+banner4.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -788,7 +795,8 @@ footer .col {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner5.png);
+    background-image: url(/finalproject2026/img/
+banner5.png);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -871,8 +879,8 @@ footer .col {
     border: 1px solid #e1e1e1;
 }
 #prodetails .single-pro-image {
-  width: 380px;        /* 控制照片實際大小 */
-  margin-left: 0;      /* 關鍵：拿掉 15% */
+  width: 380px;        
+  margin-left: 0;      
   margin-right: 40px;
   flex-shrink: 0;
 }
@@ -1154,7 +1162,7 @@ body {
 
 /* User Page */
 
-/* ===== Shared ===== */
+
 .section-title {
   text-align: center;
   font-size: 28px;
